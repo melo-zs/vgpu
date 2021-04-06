@@ -15,32 +15,32 @@
       <td>200</td>
    </tr>
    <tr>
-      <td>32</td>
+      <td></td>
       <td>128</td>
       <td>200</td>
    </tr>
    <tr>
-      <td>64</td>
+      <td></td>
       <td>128</td>
       <td>200</td>
    </tr>
    <tr>
-      <td>64</td>
+      <td></td>
       <td>256</td>
       <td>200</td>
    </tr>
    <tr>
-      <td>96</td>
+      <td></td>
       <td>192</td>
       <td>200</td>
    </tr>
    <tr>
-      <td>128</td>
+      <td></td>
       <td>256</td>
       <td>200</td>
    </tr>
    <tr>
-      <td>240</td>
+      <td></td>
       <td>480</td>
       <td>200</td>
    </tr>
