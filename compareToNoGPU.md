@@ -23,9 +23,9 @@
         <td>GPU</td> 
    </tr>
     <tr>
-        <td colspan="2">AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q</td><td>128</td><td>300</td>
+        <td>AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q</td><td>128</td><td>300</td>
     </tr>
     <tr>
-        <td colspan="2">AMD EPYC 7542 32vcpu</td><td>555</td><td></td>    
+        <td>AMD EPYC 7542 32vcpu</td><td  colspan="2">555</td> 
     </tr>
 </table>
