@@ -16,4 +16,16 @@
 | AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q | 52.91 | 56.44 | 48.08 | 21.86 | 54.79 | 43.45 | 37.51 | 58.33 | 42.44 |
 | AMD EPYC 7542 32vcpu | 2.02 | - | - | - | - | - | 1.07 | 0.01 | - |
 
-
+## Solidworks Visualize渲染测试
+<table>
+    <tr>
+        <td colspan="2"></td> <td>CPU+GPU</td> 
+        <td>GPU</td> 
+   </tr>
+    <tr>
+        <td colspan="2">AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q</td><td>128</td><td>300</td>
+    </tr>
+    <tr>
+        <td colspan="2">AMD EPYC 7542 32vcpu</td><td>555</td><td></td>    
+    </tr>
+</table>
