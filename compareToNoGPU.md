@@ -19,13 +19,15 @@
 ## Solidworks Visualize渲染测试
 <table>
     <tr>
-        <td colspan="2"></td> <td>CPU+GPU</td> 
-        <td>GPU</td> 
-   </tr>
-    <tr>
-        <td>AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q</td><td>128</td><td>300</td>
+        <td rowspan="2"></td> <td>1000pass</td><td>100pass</td> 
     </tr>
     <tr>
-        <td>AMD EPYC 7542 32vcpu</td><td  colspan="2">555</td> 
+        <td>CPU+GPU</td><td>GPU</td><td>300</td>
+    </tr>
+    <tr>
+        <td>AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q</td><td>128</td><td>300</td><td>300</td>
+    </tr>
+    <tr>
+        <td>AMD EPYC 7542 32vcpu</td><td  colspan="2">555</td><td>300</td>
     </tr>
 </table>
