@@ -6,7 +6,7 @@ EPC支持的vGPU型号：
 * 计算能力支持NVIDIA Tesla T4的1/4
 * GPU显存支持4 GB
 
-vGPU型实例需要使用GRID驱动，获取方式和实例的镜像类型有关：
+vGPU型实例需要使用nvidia vGPU驱动，获取方式和实例的镜像类型有关：
 * Windows：创建实例时在下拉Windows镜像列表，并选用预装GRID驱动的镜像。这些镜像带有已经激活License的GRID驱动，不用再手动安装GRID驱动。
 * Linux：请自行向[NVIDIA](https://enterpriseproductregistration.nvidia.com/?LicType=EVAL&ProductFamily=vGPU) 购买GRID License，并在创建实例后手动安装GRID驱动和激活License。
 
