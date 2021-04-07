@@ -18,7 +18,7 @@
 
 ## Solidworks Visualize渲染测试
 <p align="right">单位：sec</p>
-<table>
+<table align="center">
     <tr>
         <td colspan="2"></td><td>1000pass</td><td>100pass</td> 
     </tr>
