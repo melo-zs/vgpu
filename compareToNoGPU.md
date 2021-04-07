@@ -1,22 +1,20 @@
 # 挂载vGPU的HPC产品和没有挂载HPC的产品性能对比
 
 ## Solidworks Benchmark
-| CPU（核） | 内存（GB） | 系统盘（GB） |
-|-----|-----|-----------|
-| AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q | 64 | 200 |
-| AMD EPYC 7542 32vcpu | 128 | 200 |
+|  | Graphics(sec) | Procenssor(sec)） |
+|:--:|:--:|:--:|
+| AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q | 26.6 | 37.2 |
+| AMD EPYC 7542 32vcpu | 65.8 | 35.1 |
 
 <table>
     <tr>
-        <th>班级</th><th>课程</th><th>平均分</th>
+        <td>列一</td> 
+        <td>列一</td> 
+   </tr>
+    <tr>
+        <td colspan="2">AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q</td>    
     </tr>
     <tr>
-        <td rowspan="2">1班</td>
-    </tr>
-    <tr>
-        <td>数学</td><td>96</td>
-    </tr>
-    <tr>
-        <td>英语</td><td>92</td>
+        <td colspan="2">AMD EPYC 7542 32vcpu</td>    
     </tr>
 </table>
