@@ -8,9 +8,10 @@
 | AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q | 52.91 | 56.44 | 48.08 | 21.86 | 54.79 | 43.45 | 37.51 | 58.33 | 42.44 |
 | AMD EPYC 7542 32vcpu | 2.02 | - | - | - | - | - | 1.07 | 0.01 | - |
 <p align="right">(由于缺少GPU，CPU实例无法运行OpenGL相关测试)</p>
+1
+
 ## Solidworks Benchmark基准测试
 <p align="right">单位：sec</p>
-1
 
 |  | Graphics | Procenssor | I/O | Overall | Rendering | RealView Performance | Simulation |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
