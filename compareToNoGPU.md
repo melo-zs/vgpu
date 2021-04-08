@@ -22,7 +22,6 @@ SPECviewperf®13基准测试是SPEC标准化评测组织发布的基于专业应
 <div style="align: center">
 <img src="https://github.com/melo-zs/vgpu/blob/main/benchmark.jpg"/>
 </div>
-![avatar](https://github.com/melo-zs/vgpu/blob/main/benchmark.jpg)
 
 SolidWorks是制造业广泛流行的3D CAD设计软件，使用软件自带的性能基准测试得出以上结果。CPU实例不支持RealView特性，因此空缺一项测试成绩。测试结果表明在图形方面，挂载vGPU的实例要远优于CPU实例
 
