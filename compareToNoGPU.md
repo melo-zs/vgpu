@@ -19,6 +19,7 @@ SPECviewperf®13基准测试是SPEC标准化评测组织发布的基于专业应
 | AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q | 26.6 | 37.2 | 35.5 | 99.4 | 7.1 | 21.5 | 90.9 |
 | AMD EPYC 7542 32vcpu | 65.8 | 35.1 | 28.8 | 129.7 | 6.7 | - | 85.1 |
 
+SolidWorks是制造业广泛流行的3D CAD设计软件，使用软件自带的性能基准测试得出以上结果。CPU实例不支持RealView特性，因此空缺一项测试成绩。测试结果表明在图形方面，挂载vGPU的实例要远优于CPU实例
 
 ## SolidWorks Visualize渲染测试
 <p align="right">单位：sec</p>
