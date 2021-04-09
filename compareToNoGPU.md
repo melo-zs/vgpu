@@ -8,6 +8,7 @@
 
 测试选取一段50秒的1080pUE4全景视频，测试结果如上表所示，挂载vGPU的实例FPS要优于CPU实例，平均值超过45、最大值能达到60的FPS值完全能满足科学软件在做图方面和数据可视化方面的需求。
 
+
 ## SPECviewperf®13 Benchmark基准测试
 <p align="right">单位：FPS</p>
 
@@ -18,6 +19,7 @@
 <p align="right">(由于缺少GPU，CPU实例无法运行OpenGL相关测试)</p>
 
 SPECviewperf®13基准测试是SPEC标准化评测组织发布的基于专业应用程序测量图形性能的基准测试。该基准测试在OpenGL和Direct X应用程序编程接口下，模拟了各种作图、渲染软件的应用，从而测试GPU的3D图形性能。从测试结果可以看出，挂在了vGPU的实例在一些科学软件的作图和渲染方面的应用远高于仅有CPU的实例。
+
 
 ## SolidWorks Benchmark基准测试
 <p align="right">单位：sec</p>
@@ -32,6 +34,7 @@ SPECviewperf®13基准测试是SPEC标准化评测组织发布的基于专业应
 </div>
 
 SolidWorks是制造业广泛流行的3D CAD设计软件，使用软件自带的性能基准测试得出以上结果。CPU实例不支持RealView特性，因此空缺一项测试成绩。测试结果表明在图形方面，挂载vGPU的实例要远优于CPU实例
+
 
 ## SolidWorks Visualize渲染测试
 <p align="right">单位：sec</p>
