@@ -1,7 +1,14 @@
 # 性能对比vsCPU
 
+## 视频播放FPS对比测试
+|  | Average FPS | Maximum FPS | Minimum FPS | 
+|:--:|:--:|:--:|:--:|
+| AMD EPYC 7542 32vcpu + Nvidia GRID T4-4Q | 45.47 | 60.64 | 13.25 |
+| AMD EPYC 7542 32vcpu | 30.61 | 37.98 | 6.92 |
+测试选取一段50秒的1080pUE4全景视频，测试结果如上表所示，挂载vGPU的实例FPS要优于CPU实例，平均值超过45、最大值能达到60的FPS值完全能满足科学软件在做图方面和数据可视化方面的需求。
+
 ## SPECviewperf®13 Benchmark基准测试
-<p align="right">单位：fps</p>
+<p align="right">单位：FPS</p>
 
 |  | 3dsmax-06 | catia-05 | creo-02 | energy-02 | maya-05 | medical-02 | showcase-02 | snx-03 | sw-04 |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
