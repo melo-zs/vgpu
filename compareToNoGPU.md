@@ -33,7 +33,7 @@
 <img src="https://github.com/melo-zs/vgpu/blob/main/benchmark.jpg"/>
 </div>
 
-SolidWorks是制造业广泛流行的3D CAD设计软件，使用软件自带的性能基准测试得出以上结果。CPU实例不支持RealView特性，因此空缺一项测试成绩。测试结果表明在图形方面，挂载vGPU的实例要远优于CPU实例
+[SolidWorks](https://www.solidworks.com/zh-hans)是制造业广泛流行的3D CAD设计软件，使用软件自带的性能基准测试得出以上结果。CPU实例不支持RealView特性，因此空缺一项测试成绩。测试结果表明在图形方面，挂载vGPU的实例要远优于CPU实例
 
 
 ## SolidWorks Visualize渲染测试
@@ -53,4 +53,4 @@ SolidWorks是制造业广泛流行的3D CAD设计软件，使用软件自带的�
     </tr>
 </table>
 
-SolidWorks Visualize是SolidWorks提供的用于工业设计、产品设计的一款专业的渲染工具。图表中Pass表示渲染中的通道数，从测试结果可以看出在渲染较高画质的图像时，使用CPU+GPU混合模式的渲染速度比只用CPU快将近5倍。
+[SolidWorks Visualize](https://www.solidworks.com/zh-hans/product/solidworks-visualize)是SolidWorks提供的用于工业设计、产品设计的一款专业的渲染工具。图表中Pass表示渲染中的通道数，从测试结果可以看出在渲染较高画质的图像时，使用CPU+GPU混合模式的渲染速度比只用CPU快将近5倍。
